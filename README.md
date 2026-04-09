@@ -1,86 +1,102 @@
-# 📌 Nome do Projeto
+# DjangoEdinho
+
+## Nome do projeto
 
 DjangoEdinho
 
 ---
 
-## 🚀 Como rodar o projeto
+## Como rodar o projeto
+
+Clone o repositório:
 
 ```bash
-# Clone o repositório
 git clone https://github.com/MatheusBressan3794/DjangoEdinho.git
-
-# Entre na pasta
-cd DjangoEdinho
-
-# Crie o ambiente virtual
-python -m venv venv
-
-# Ative o ambiente virtual
-# Windows
-venv\Scripts\activate
-
-# Linux/Mac
-source venv/bin/activate
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Rode as migrações
-python manage.py migrate
-
-# Inicie o servidor
-python manage.py runserver
 ```
 
-Acesse no navegador:
-http://127.0.0.1:8000/
-
----
-
-## 🛠️ Passos para criar o projeto
+Entre na pasta:
 
 ```bash
-# Criar projeto Django
-django-admin startproject nome_do_projeto
+cd DjangoEdinho
+```
 
-# Entrar na pasta
-cd nome_do_projeto
+Crie o ambiente virtual:
 
-# Rodar servidor
+```bash
+python -m venv venv
+```
+
+Ative o ambiente:
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/Mac:
+
+```bash
+source venv/bin/activate
+```
+
+Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+Rode o projeto:
+
+```bash
 python manage.py runserver
-
-# Criar app
-python manage.py startapp nome_do_app
 ```
 
 ---
 
-## 💻 Tecnologias usadas
+## Passos para criar o projeto
+
+Criar o projeto Django:
+
+```bash
+django-admin startproject projeto
+```
+
+Entrar na pasta:
+
+```bash
+cd projeto
+```
+
+Rodar o servidor:
+
+```bash
+python manage.py runserver
+```
+
+Criar um app:
+
+```bash
+python manage.py startapp app
+```
+
+---
+
+## Tecnologias usadas
 
 * Python
 * Django
-* SQLite (ou outro banco, se estiver usando)
 
 ---
 
-## 🗄️ Banco de dados usado
+## Banco de dados usado
 
-SQLite (banco padrão do Django)
-
-> Caso tenha usado outro (PostgreSQL, MySQL, etc.), altere aqui.
+SQLite (padrão do Django)
 
 ---
 
-## 🧪 Como criar o ambiente virtual
+## Como criar o ambiente virtual
 
 ```bash
-# Criar ambiente
 python -m venv venv
-
-# Ativar (Windows)
-venv\Scripts\activate
-
-# Ativar (Linux/Mac)
-source venv/bin/activate
 ```
