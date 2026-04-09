@@ -1,0 +1,18 @@
+Situação atual da empresa
+
+- Não existe documentação formal
+- Cada programador desenvolve como achar melhor
+- Não há padrão de código
+- Não existe planejamento detalhado
+- Testes só são feitos no final
+- Não registram erros encontrados
+- O cliente pede mudanças constantemente
+- O prazo já atrasou 1 mês
+
+Após a primeira versão entregue:
+
+- O app trava ao cadastrar tarefas
+- Algumas funções não salvam corretamente
+- O desing muda de tela para tela
+- Há reclamações dos usuários
+

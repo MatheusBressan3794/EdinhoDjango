@@ -1,0 +1,12 @@
+from django.contrib import admin
+from django.urls import path
+from projetoexemplo1 import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.home, name='home'),
+    path('sobre/', views.sobre, name='sobre'),
+    path('autor/', views.autor, name='autor'),
+    path('noticias/', views.noticias, name='noticias'),
+    path('empresa/', views.empresa, name='empresa'),
+]
